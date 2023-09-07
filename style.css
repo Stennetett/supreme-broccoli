@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rubik&display=swap');
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 
 
 }
 
 body {
-  margin: 0;
+    margin: 0;
 
-  overflow-y: auto;
+    overflow-y: auto;
 
 }
 
@@ -23,7 +23,7 @@ header {
 main {
     color: white;
     background-color: purple;
-    width: 15%;
+    width: 33%;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -33,25 +33,31 @@ section {
     padding: 10%;
     margin: 5%;
     border-radius: 5px;
+
 }
 
 section p {
     margin-bottom: 10%;
     padding: 10%;
-    text-align: center;
-    
+
+
 
 }
-section div{
+
+section div {
     border-radius: 5px;
+    overflow-y: auto;
+    height: 150px;
 }
 
 
 
 #black {
-   
+    display: flex;
     background-color: black;
-    
+    font-size: 15px;
+    justify-content: center;
+
 }
 
 #green {
@@ -70,7 +76,8 @@ footer {
     text-align: center;
     border-radius: 5px;
 }
-img{
+
+img {
     width: 20%;
     padding: 0%;
     margin: 5%;
@@ -81,14 +88,14 @@ img{
 /* Media query for screens with a maximum width of 768px (typical smartphones in portrait mode) */
 @media (max-width: 768px) {
     main {
-      font-size: 20px;
-      width: 80%;
+        font-size: 20px;
+        width: 95%;
     }
-  }
-  
-  /* Media query for screens with a maximum width of 576px (smaller smartphones in portrait mode) */
-  @media (max-width: 576px) {
+}
+
+/* Media query for screens with a maximum width of 576px (smaller smartphones in portrait mode) */
+@media (max-width: 576px) {
     body {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
+}
